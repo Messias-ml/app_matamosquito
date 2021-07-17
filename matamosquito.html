@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS baixe o bootstrap para ter acesso-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Área de Trabalho\DESENVOLVIMENTO WEB COMPLETO\bootstrap/css/bootstrap.min.css">
+	  <!-- FONTAWESOME -->
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+    <!-- MODO DE UTILIZAÇÃO fontawesome -> https://fontawesome.com/icons?d=gallery&m=free -->
+	<!-- iconic -->
+	<link rel="stylesheet" type="text/css" href="iconic/font/css/open-iconic-bootstrap.css">
+	<!-- MODO DE UTILIZAÇÃO iconic -> https://useiconic.com/open/ -->
+    <link rel="stylesheet" href="jogo.css">
+	</head>
+    <script src="jogo.js"></script>
+
+<body onresize="palcoJogo()">
+<div class="painel">
+<div class="vida">
+    <img id="v1" src="imagens/coracao_cheio.png">
+    <img id="v2" src="imagens/coracao_cheio.png">
+    <img id="v3" src="imagens/coracao_cheio.png">
+    </div>
+ <div class="tempo">
+     TEMPO RESTANTE:<span id="cronometro"></span>
+ </div>   
+</div>
+</body>
+<script type="text/javascript">
+    
+ setInterval( function() {
+        posRondom()
+    }, tempoNivel)
+</script>
+</html>
