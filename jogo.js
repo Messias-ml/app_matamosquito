@@ -27,7 +27,7 @@ if (vidas > 3) {
 				window.location.href = 'fim_de_jogo.html'
 				}
 	else {
-	 document.getElementById('v' + vidas).src = 'imagens/coracao_vazio.png'
+	 document.getElementById('v' + vidas).src = 'coracao_vazio.png'
 	 vidas++ }
 }
 var posicaoX = Math.floor(Math.random() * largura) - 115 // esses 115 serve porque a imagem tem o tamanho de 50px, então pode ultrapassar a tela se chegar no limite da mesma.
@@ -35,7 +35,7 @@ var posicaoY = Math.floor(Math.random() * altura) - 115
 posicaoY = posicaoY < 0 ? 0 : posicaoY
 posicaoX = posicaoX < 0 ? 0 : posicaoX
 var mosquito = document.createElement('img') // aqui eu estou criando um elemento no html, chamado imagem, crio pelo js, para ser dinamico tal elemento.
-mosquito.src = 'imagens/mosca.png' //depois de mandar ele para a variavel mosquito, eu acesso o src da minha imagem e digo onde ela se localiza. 
+mosquito.src = 'mosca.png' //depois de mandar ele para a variavel mosquito, eu acesso o src da minha imagem e digo onde ela se localiza. 
 mosquito.className = tamanho() +  ' ' + lado()// agora eu acrescento a class para por na minha imagem que é mosquito.
 mosquito.style.left = posicaoX + 'px' // isso é muito interessante, eu acrescento um style para mover para a esquerda, posicaoX (numero randomico) px ou seja, será pixel
 mosquito.style.top = posicaoY + 'px'
