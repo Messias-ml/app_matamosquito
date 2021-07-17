@@ -62,7 +62,7 @@ switch (lad){
 }
 }
 
- var i = 101
+ var i = 61
  setInterval(function(){
  	
  i-- 
