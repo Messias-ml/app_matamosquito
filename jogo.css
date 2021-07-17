@@ -10,7 +10,7 @@
 .ladoA { transform: scaleX(1); }
 .ladoB { transform: scaleX(-1); }
 body {
-	background: url('imagens/bg.jpg');
+	background: url('bg.jpg');
 	background-size: cover;
 }
 .painel {position: absolute;
@@ -32,5 +32,5 @@ font-size: 18px;
 .texto {font-weight: bold;
 font-size: 20px;}
 html {
-	cursor: url(imagens/mata_mosca.png) 30 30, auto;
+	cursor: url(mata_mosca.png) 30 30, auto;
 }
